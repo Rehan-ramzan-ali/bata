@@ -1,0 +1,101 @@
+body{margin: 0;
+background-image:url(BATACOMFIT_web_banner_copy.webp)
+}
+
+
+#header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;cursor:grab;
+
+}
+
+.box2>img{width:150px; text-align: center;}
+/* .box3{border: 1px solid black;} */
+
+.box3>nav>ul{
+    display: flex;
+    list-style: none;
+}
+.box3>nav>ul>li{
+    margin: 10px;
+    cursor:grab;
+}
+.box3>nav>ul>li>img{
+    width: 100px;
+}
+#textbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+cursor:grab;
+}
+#textbar>div{
+   margin: 10px;
+   font-size: 10px;}
+.imgdiv{}
+.img1{width: 100%;}
+.img2{width: 100%;}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.cardimg{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.cardimg>img{
+    width: 100%;
+}
+@media screen and (max-width:431px) {
+    #textbar>div{ display: none;}
+    .box{display: none;}
+    .img1{ display: none;}
+      .cardimg{
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+}
+@media screen and (min-width:431px) and (max-width:768px) {
+    #textbar>div{ display: none;}
+    .fa-magnifying-glass {display: none;}
+    .img1{ display: none;}
+    .cardimg{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+    .card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+}
+@media screen and (min-width:768px) {
+    .box1>.fa-solid { display: none;}
+    .img2{ display: none;}
+    
+    
+}
+@media screen and (max-width:768) {
+    /* .img2{ display: none;} */
+}
